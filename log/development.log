@@ -20229,3 +20229,52 @@ Processing by HomesController#top as HTML
 Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 2830)
 
 
+Started GET "/" for 49.109.225.74 at 2025-03-24 16:27:15 +0000
+Cannot render console from 49.109.225.74! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 4.3ms | Allocations: 341)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 60.7ms | Allocations: 8068)
+Completed 200 OK in 89ms (Views: 68.8ms | ActiveRecord: 0.0ms | Allocations: 12235)
+
+
+Started GET "/" for 49.109.225.74 at 2025-03-24 16:27:17 +0000
+Cannot render console from 49.109.225.74! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 2427)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 2933)
+
+
+Started GET "/" for 49.105.82.180 at 2025-03-24 16:47:42 +0000
+Cannot render console from 49.105.82.180! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.2ms | Allocations: 2613)
+Completed 200 OK in 31ms (Views: 27.5ms | Allocations: 3120)
+
+
+Started GET "/users/sign_up" for 49.105.82.180 at 2025-03-24 16:50:43 +0000
+Cannot render console from 49.105.82.180! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.6ms | Allocations: 250)
+  Rendered devise/shared/_links.html.erb (Duration: 3.4ms | Allocations: 928)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 27.8ms | Allocations: 5560)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.7ms | Allocations: 8160)
+Completed 200 OK in 71ms (Views: 46.5ms | ActiveRecord: 1.7ms | Allocations: 16515)
+
+
