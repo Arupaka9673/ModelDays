@@ -20468,3 +20468,60 @@ Processing by HomesController#top as HTML
 Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 2926)
 
 
+Started GET "/" for 49.109.144.195 at 2025-04-20 17:23:46 +0000
+Cannot render console from 49.109.144.195! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 2.1ms | Allocations: 341)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 68.4ms | Allocations: 8068)
+Completed 200 OK in 91ms (Views: 73.8ms | ActiveRecord: 0.0ms | Allocations: 12235)
+
+
+Started GET "/" for 49.109.144.195 at 2025-04-20 17:23:49 +0000
+Cannot render console from 49.109.144.195! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2438)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 2850)
+
+
+Started GET "/" for 49.109.144.195 at 2025-04-20 17:23:50 +0000
+Cannot render console from 49.109.144.195! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2426)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 2867)
+
+
+Started GET "/" for 49.109.144.195 at 2025-04-20 17:23:55 +0000
+Cannot render console from 49.109.144.195! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2603)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 3105)
+
+
+Started GET "/" for 49.109.144.195 at 2025-04-20 17:24:04 +0000
+Cannot render console from 49.109.144.195! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2430)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 2828)
+
+
